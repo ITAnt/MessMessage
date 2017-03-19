@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreenClear"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_top_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/bg"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅用于朋友间相互调侃"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/dimension_title"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_input_phone"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="16dp"
+            android:padding="7dp"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:digits="0123456789"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@drawable/shape_edittext"/>
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/text_start_bomb"
+            android:textColor="@android:color/white"
+            android:background="@drawable/slelector_btn_green"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您目前是试用会员，如要开通永久会员请联系客服QQ1046883121，只需10块钱哦。"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+

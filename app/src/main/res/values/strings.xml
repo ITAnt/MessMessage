@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">炸你妹</string>
+    <string name="tip_input_phone">请输入要调侃的手机号码(11位数字)</string>
+    <string name="text_start_bomb">开始轰炸</string>
+</resources>

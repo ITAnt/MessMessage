@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#5cb85c</color>
+    <color name="colorPrimaryDark">#449d44</color>
+    <color name="colorAccent">#d9534f</color>
+
+
+    <color name="colorGray">#777</color>
+    <color name="colorGrayFocus">#5e5e5e</color>
+    <color name="colorBlue">#337ab7</color>
+    <color name="colorBlueFocus">#286090</color>
+    <color name="colorGreen">#5cb85c</color>
+    <color name="colorGreenFocus">#449d44</color>
+    <color name="colorLightBlue">#5bc0de</color>
+    <color name="colorLightBlueFocus">#31b0d5</color>
+    <color name="colorYellow">#f0ad4e</color>
+    <color name="colorYellowFocus">#ec971f</color>
+    <color name="colorRed">#d9534f</color>
+    <color name="colorRedFocus">#d9534f</color>
+    <color name="colorLightGreenBg">#dff0d8</color>
+    <color name="colorLightGreenText">#d6e9c6</color>
+    <color name="colorLightBlueBg">#d9edf7</color>
+    <color name="colorLightBlueText">#bce8f1</color>
+    <color name="colorLightYellowBg">#fcf8e3</color>
+    <color name="colorLightYellowText">#faebcc</color>
+    <color name="colorLightRedBg">#f2dede</color>
+    <color name="colorLightRedText">#ebccd1</color>
+    <color name="colorGreenClear">#5cb85c</color>
+    <color name="colorBlueClear">#5bc0de</color>
+    <color name="colorYellowClear">#f0ad4e</color>
+    <color name="colorRedClear">#d9534f</color>
+</resources>
